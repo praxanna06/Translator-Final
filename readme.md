@@ -21,7 +21,7 @@ AI-powered translation system supporting English, Hindi, and Tamil with speech a
 | Backend | FastAPI, Python |
 | Frontend | React 18 |
 | Database | MongoDB |
-| ML Models | MarianMT (custom), Meta NLLB-200 |
+| ML Models | MarianMT (custom) |
 | Speech | Google Speech API, gTTS |
 
 ---
