@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500;600;700;800&family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: 'Mukta', 'Inter', -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@layer base {
+    :root {
+        --background: 40 10% 98%;
+        --foreground: 20 10% 11%;
+        --primary: 238 45% 25%;
+        --primary-foreground: 0 0% 100%;
+        --border: 40 15% 82%;
+    }
+}
